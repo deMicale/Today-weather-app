@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-weight: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+ body{
+    width: 100%;
+    height: 100%;
+    background-color:lightblue;
+    background-image: url("Img/Smart-Tourism.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+header{
+    width:auto;
+    height:50%;
+    text-align: center;
+}
+main, .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    padding: 10px;
+}
+main {
+    padding-bottom: 0px;
+}
+button {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 2px solid #393a72;
+    background: #513570;
+    color: white;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* section {
+    padding: 10px;
+} */
+  
+select {
+    border-radius: 5px;
+}
+form {
+    background-color:rgba(255, 255, 255, 0.6)
+}

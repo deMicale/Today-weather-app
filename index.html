@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today weather</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header>
+        <span class ="title">
+            <h1>Today weather</h1>
+        </span>
+        <section>  
+            <form>
+                <label for="holiday">Choose a city:</label> 
+                <select name="cities" id="cities">
+                    <option value="laquila">L'Aquila</option>
+                    <option value="potenza">Potenza</option>
+                    <option value="catanzaro">Catanzaro</option>
+                    <option value="napoli">Napoli</option> 
+                    <option value="bologna">Bologna</option>
+                    <option value="trieste">Trieste</option>
+                    <option value="roma">Roma</option>
+                    <option value="genova">Genova</option>
+                    <option value="milano">Milano</option>
+                    <option value="ancona">Ancona</option>
+                    <option value="campobasso">Campobasso</option>
+                    <option value="torino">Torino</option>
+                    <option value="bari">Bari</option>
+                    <option value="cagliari">Cagliari</option>
+                    <option value="palermo">Palermo</option>
+                    <option value="firenze">Firenze</option>
+                    <option value="trento">Trento</option>
+                    <option value="perugia">Perugia</option>
+                    <option value="aosta">Aosta</option>
+                    <option value="venezia">Venezia</option>
+                </select>
+                <button type="submit" id = "btnCity">Go!</button>
+            </form>
+        </section> 
+        <section>
+            <form>
+                <label for="holiday">Your holiday in:</label>
+                <select  name="" id="holiday" default="All">
+                    <option value="">San Vito Lo Capo</option>
+                    <option value="">Taormina</option>
+                    <option value="">Capo d'Orlando</option>
+                    <option value="">Capri</option>
+                    <option value="">Matera</option>
+                    <option value="">Riccione</option>
+                    <option value="">Rimini</option>
+                    <option value="">Cortina d'Ampezzo</option>
+                </select>
+                <button type="submit" id = "btnHoliday">Go!</button>
+            </form> 
+        </section>
+    </header> 
+    <main>
+        <div id="container"></div>
+   </main>
+   <script src="index.js"></script>
+</body>
+</html>
