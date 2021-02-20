@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,25 +18,26 @@
             <form>
                 <label for="holiday">Choose a city:</label> 
                 <select name="cities" id="cities">
-                    <option value="laquila">L'Aquila</option>
-                    <option value="potenza">Potenza</option>
-                    <option value="catanzaro">Catanzaro</option>
-                    <option value="napoli">Napoli</option> 
-                    <option value="bologna">Bologna</option>
-                    <option value="trieste">Trieste</option>
-                    <option value="roma">Roma</option>
-                    <option value="genova">Genova</option>
-                    <option value="milano">Milano</option>
+                    <option value="all">Choose...</option>
                     <option value="ancona">Ancona</option>
-                    <option value="campobasso">Campobasso</option>
-                    <option value="torino">Torino</option>
-                    <option value="bari">Bari</option>
-                    <option value="cagliari">Cagliari</option>
-                    <option value="palermo">Palermo</option>
-                    <option value="firenze">Firenze</option>
-                    <option value="trento">Trento</option>
-                    <option value="perugia">Perugia</option>
                     <option value="aosta">Aosta</option>
+                    <option value="bari">Bari</option>
+                    <option value="bologna">Bologna</option>
+                    <option value="cagliari">Cagliari</option>
+                    <option value="campobasso">Campobasso</option>
+                    <option value="catanzaro">Catanzaro</option>
+                    <option value="firenze">Firenze</option>
+                    <option value="genova">Genova</option>
+                    <option value="laquila">L'Aquila</option>
+                    <option value="milano">Milano</option>
+                    <option value="napoli">Napoli</option>
+                    <option value="palermo">Palermo</option>
+                    <option value="perugia">Perugia</option>
+                    <option value="potenza">Potenza</option>
+                    <option value="roma">Roma</option>
+                    <option value="torino">Torino</option>
+                    <option value="trento">Trento</option>
+                    <option value="trieste">Trieste</option>
                     <option value="venezia">Venezia</option>
                 </select>
                 <button type="submit" id = "btnCity">Go!</button>
@@ -45,22 +46,23 @@
         <section>
             <form>
                 <label for="holiday">Your holiday in:</label>
-                <select  name="" id="holiday" default="All">
-                    <option value="">San Vito Lo Capo</option>
-                    <option value="">Taormina</option>
-                    <option value="">Capo d'Orlando</option>
-                    <option value="">Capri</option>
-                    <option value="">Matera</option>
-                    <option value="">Riccione</option>
-                    <option value="">Rimini</option>
-                    <option value="">Cortina d'Ampezzo</option>
+                <select  name="" id="holiday">
+                    <option value="all">Choose...</option>
+                    <option value="capo+dorlando">Capo d'Orlando</option>
+                    <option value="capri">Capri</option>
+                    <option value="cortina+dampezzo">Cortina d'Ampezzo</option>
+                    <option value="matera">Matera</option>
+                    <option value="riccione">Riccione</option>
+                    <option value="rimini">Rimini</option>
+                    <option value="san+vito+lo+capo">San Vito Lo Capo</option>
+                    <option value="taormina">Taormina</option>
                 </select>
                 <button type="submit" id = "btnHoliday">Go!</button>
             </form> 
         </section>
     </header> 
     <main>
-        <div id="container"></div>
+        <div class="scroll_card" id="container"></div>
    </main>
    <script src="index.js"></script>
 </body>
